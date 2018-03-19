@@ -1,0 +1,61 @@
+"year_id","mmr","upper","lower","location_name","super_region_name","region_name","keep"
+1990,31.369115,35.163743,27.918105,"United Kingdom","High-income","Western Europe",1
+1995,33.763022,38.247654,29.613053,"United Kingdom","High-income","Western Europe",1
+2000,27.009847,31.127467,23.367965,"United Kingdom","High-income","Western Europe",1
+2005,30.5004,34.531645,26.751081,"United Kingdom","High-income","Western Europe",1
+2010,26.521577,30.290245,23.050131,"United Kingdom","High-income","Western Europe",1
+2015,33.024666,39.110518,27.937362,"United Kingdom","High-income","Western Europe",1
+1990,24.154633,26.902378,21.615324,"United States","High-income","High-income North America",1
+1995,19.637077,22.2196,17.461186,"United States","High-income","High-income North America",1
+2000,22.270833,24.986672,20.003677,"United States","High-income","High-income North America",1
+2005,30.707765,34.124172,27.569399,"United States","High-income","High-income North America",1
+2010,33.419511,37.639559,29.759217,"United States","High-income","High-income North America",1
+2015,45.827193,52.222489,39.94987,"United States","High-income","High-income North America",1
+1990,106.7505,119.36902,96.235641,"Mexico","Latin America and Caribbean","Central Latin America",1
+1995,115.50893,129.43905,103.25617,"Mexico","Latin America and Caribbean","Central Latin America",1
+2000,108.37281,121.90803,96.448869,"Mexico","Latin America and Caribbean","Central Latin America",1
+2005,117.67438,133.86568,103.94266,"Mexico","Latin America and Caribbean","Central Latin America",1
+2010,103.97515,118.77645,92.427449,"Mexico","Latin America and Caribbean","Central Latin America",1
+2015,99.312079,114.59732,87.057309,"Mexico","Latin America and Caribbean","Central Latin America",1
+1990,505.22546,875.10526,262.27784,"Paraguay","Latin America and Caribbean","Tropical Latin America",1
+1995,246.55716,408.14037,129.24772,"Paraguay","Latin America and Caribbean","Tropical Latin America",1
+2000,261.98037,407.9614,150.40186,"Paraguay","Latin America and Caribbean","Tropical Latin America",1
+2005,248.8624,415.14344,142.63789,"Paraguay","Latin America and Caribbean","Tropical Latin America",1
+2010,191.20285,311.45221,103.49381,"Paraguay","Latin America and Caribbean","Tropical Latin America",1
+2015,171.27081,304.4577,84.783095,"Paraguay","Latin America and Caribbean","Tropical Latin America",1
+1990,334.00839,613.97266,152.96226,"Iraq","North Africa and Middle East","North Africa and Middle East",1
+1995,305.88968,552.41912,138.9429,"Iraq","North Africa and Middle East","North Africa and Middle East",1
+2000,223.66733,438.97346,99.039971,"Iraq","North Africa and Middle East","North Africa and Middle East",1
+2005,159.27379,306.30095,71.115502,"Iraq","North Africa and Middle East","North Africa and Middle East",1
+2010,113.2438,216.44065,49.552652,"Iraq","North Africa and Middle East","North Africa and Middle East",1
+2015,79.535409,155.59922,37.156628,"Iraq","North Africa and Middle East","North Africa and Middle East",1
+1990,890.09276,1822.567,229.18239,"Afghanistan","North Africa and Middle East","North Africa and Middle East",1
+1995,882.15462,1790.4507,287.55838,"Afghanistan","North Africa and Middle East","North Africa and Middle East",1
+2000,721.35119,1361.1347,230.91241,"Afghanistan","North Africa and Middle East","North Africa and Middle East",1
+2005,558.98264,1085.1148,244.33609,"Afghanistan","North Africa and Middle East","North Africa and Middle East",1
+2010,402.98111,757.63733,174.63913,"Afghanistan","North Africa and Middle East","North Africa and Middle East",1
+2015,452.68082,881.23405,201.94833,"Afghanistan","North Africa and Middle East","North Africa and Middle East",1
+1990,558.44144,953.38733,306.62853,"Bangladesh","South Asia","South Asia",1
+1995,535.72236,873.21787,308.43753,"Bangladesh","South Asia","South Asia",1
+2000,427.82901,691.14072,239.45465,"Bangladesh","South Asia","South Asia",1
+2005,289.42294,473.49733,162.71457,"Bangladesh","South Asia","South Asia",1
+2010,157.39049,279.42198,86.075093,"Bangladesh","South Asia","South Asia",1
+2015,88.739875,163.55188,42.87188,"Bangladesh","South Asia","South Asia",1
+1990,154.13804,185.99327,127.86563,"India","South Asia","South Asia",1
+1995,124.78611,151.81138,104.14209,"India","South Asia","South Asia",1
+2000,55.99692,68.483818,46.537781,"India","South Asia","South Asia",1
+2005,30.960948,37.642766,25.588319,"India","South Asia","South Asia",1
+2010,30.318356,37.958458,24.351569,"India","South Asia","South Asia",1
+2015,25.072355,32.846645,19.209537,"India","South Asia","South Asia",1
+1990,285.83557,548.77562,135.54803,"Uganda","Sub-Saharan Africa","Eastern Sub-Saharan Africa",1
+1995,311.76382,622.50525,145.54854,"Uganda","Sub-Saharan Africa","Eastern Sub-Saharan Africa",1
+2000,368.24877,687.07165,166.77545,"Uganda","Sub-Saharan Africa","Eastern Sub-Saharan Africa",1
+2005,408.47549,789.58255,193.15657,"Uganda","Sub-Saharan Africa","Eastern Sub-Saharan Africa",1
+2010,448.58485,815.37774,219.44814,"Uganda","Sub-Saharan Africa","Eastern Sub-Saharan Africa",1
+2015,419.7399,801.415,179.92984,"Uganda","Sub-Saharan Africa","Eastern Sub-Saharan Africa",1
+1990,1003.8897,1956.9929,416.54095,"Sierra Leone","Sub-Saharan Africa","Western Sub-Saharan Africa",1
+1995,1094.784,2086.5811,487.29202,"Sierra Leone","Sub-Saharan Africa","Western Sub-Saharan Africa",1
+2000,1150.2319,2189.6131,523.2749,"Sierra Leone","Sub-Saharan Africa","Western Sub-Saharan Africa",1
+2005,1202.9382,2207.9054,563.71378,"Sierra Leone","Sub-Saharan Africa","Western Sub-Saharan Africa",1
+2010,1271.7019,2351.223,603.35516,"Sierra Leone","Sub-Saharan Africa","Western Sub-Saharan Africa",1
+2015,1149.8048,2263.7165,531.01713,"Sierra Leone","Sub-Saharan Africa","Western Sub-Saharan Africa",1
