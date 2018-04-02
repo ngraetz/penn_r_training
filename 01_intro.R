@@ -83,7 +83,12 @@ ggplot() +
   geom_line(data = data_by_country,
             aes(x = year_id,
                 y = mmr,
-                color = location_name))
+                color = location_name),
+            size = 1) + 
+  labs(color = 'Country',
+       x = 'Year',
+       y = 'MMR') + 
+  theme_minimal()
 
 ggplot() + 
   geom_line(data = data_by_country,
@@ -97,16 +102,30 @@ ggplot() +
        y = 'MMR')
 
 ggplot() + 
-  geom_point(data = all_data[year_id==2015, ],
+  geom_point(data = all_data,
              aes(x = maternal_education,
                  y = mmr,
-                 color = super_region_name),
-                 size = 3) +
+                 color = super_region_name,
+                 size = ldi)) +
+  geom_text(aes(x = 10,
+                y = 600,
+                label = 'Note: adjakdjkajd')) + 
   theme_minimal() +
   labs(title = 'MMR by country',
        x = 'Education',
        y = 'MMR')
 
+
+ggplot() + 
+  geom_point(data = all_data,
+             aes(x = maternal_education,
+                 y = mmr,
+                 color = super_region_name,
+                 size = ldi)) +
+  labs(title = 'MMR by country',
+       x = 'Education',
+       y = 'MMR') +
+  facet_wrap(~year_id)
 
 
 
