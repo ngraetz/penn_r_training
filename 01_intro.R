@@ -14,8 +14,9 @@
 ######################################################################
   
 ## Data manipulation concepts
-  mmr_file <- "C:/Users/ngraetz/Documents/repos/penn_r_training/data/mmr.csv"
-  edu_file <- "C:/Users/ngraetz/Documents/repos/penn_r_training/data/covariates.csv"
+  repo <- 'C:/Users/ngraetz/Documents/repos/penn_r_training/'
+  mmr_file <- paste0(repo, "data/mmr.csv")
+  edu_file <- paste0(repo, "data/covariates.csv")
   mmr <- fread(mmr_file)
   edu <- fread(edu_file)
   
@@ -126,6 +127,72 @@ ggplot() +
        x = 'Education',
        y = 'MMR') +
   facet_wrap(~year_id)
+
+
+######################################################################
+### 3. Data management ###############################################
+######################################################################
+
+## Renaming, order, subsetting, adding new data to a dt, function environments
+## Pasting, Pattern matching, Substitution, Regular expressions 
+
+setnames(all_data, 'location_name', 'Country')
+all_data[order(-mmr)]
+
+dt1 <- data.table(var1=1:5,
+                  var2=c('a','b','c','d','e'))
+dt2 <- data.table(var1=1:5,
+                  var2=c('a','b','c','d','e'),
+                  var3=6:10)
+rbind(dt1, dt2, fill=TRUE)
+cbind('a','b')
+c(1:5, 6:10)
+
+head(all_data)
+
+all_data[, ]
+
+test <- c('abc', 'cde', 'trz')
+grepl('c', test)
+## grep, grepl, gsub, paste
+gsub('.csv', '', test)
+cbind('a','b')
+paste0('a','_','b')
+paste('a','b','c',sep=': ~~~~~ :')
+dt1[, var3 := paste0(var1, var2)]
+
+
+######################################################################
+### 4. Workflow ######################################################
+######################################################################
+
+## Loops, functions
+files <- list.files(directory, '.csv')
+for(file in files) {
+  
+  data <- fread(file)
+  
+}
+
+## lapply
+calc_qx <- function(nmx, n, nax) {
+  qx <- (n * nmx) / (1 + (n-nax) * nmx)
+  zzz <- 999
+  return(qx)
+}
+calc_qx(nmx = 0.001, n = 5, nax = 2.5)
+
+lapply(seq(0.001, 0.01, .001), calc_qx, n = 5, nax = 2.5)
+
+for(nmx in seq(0.001, 0.01, .001)) {
+  qx <- (n * nmx) / (1 + (n-nax) * nmx)
+  assign()
+}
+
+
+all_files <- list.files('C:/Users/ngraetz/Documents/penn_r_training', full.names = TRUE)
+all_files <- lapply(all_files, fread)
+all_files <- rbindlist(all_files, fill=TRUE)
 
 
 
